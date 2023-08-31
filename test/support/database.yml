@@ -1,0 +1,17 @@
+postgresql:
+  adapter: postgresql
+  host: localhost
+  database: fast_count_test
+  username: postgres
+  password: postgres
+
+mysql2:
+  adapter: mysql2
+  host: 127.0.0.1
+  database: fast_count_test
+  username: root
+  password: root
+
+sqlite3:
+  adapter: sqlite3
+  database: ':memory:'
