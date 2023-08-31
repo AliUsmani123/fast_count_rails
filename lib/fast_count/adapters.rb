@@ -6,7 +6,7 @@ require_relative "adapters/mysql_adapter"
 require_relative "adapters/sqlite_adapter"
 
 module FastCount
-  # @private
+  # @private module
   module Adapters
     def self.for_connection(connection)
       adapter_name = Utils.adapter_name(connection)
